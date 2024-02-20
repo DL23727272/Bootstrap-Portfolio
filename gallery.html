@@ -20,10 +20,19 @@
             border: 1px solid black;
         } */
         body {
-            background-image: linear-gradient(to right bottom, #1bf2c6, #7cd267, #b2a903, #da7300, #eb123b);
+            background-image: linear-gradient(
+                180deg,
+                hsl(240deg 100% 50%) 0%,
+                hsl(305deg 100% 41%) 37%,
+                hsl(328deg 100% 50%) 48%,
+                hsl(354deg 100% 68%) 57%,
+                hsl(18deg 100% 72%) 67%,
+                hsl(32deg 80% 79%) 80%,
+                hsl(48deg 48% 92%) 100%
+            );
             background-repeat: no-repeat;
             background-size: cover;
-            background-attachment: fixed; /* Optional: Keeps the background fixed while scrolling */
+            background-attachment: fixed; 
         }
         .carousel-item img {
             height: 350px; 
@@ -103,29 +112,33 @@
 <div class="container text-center mt-1">
     <h1 class="fw-bold"  style="color: white;">Shirt Designs</h1>
 </div>
-<!--More image-->
-<div class="row row-cols-sm-2 row-cols-md-4 justify-content-sm-center justify-content-center">
 
-    <div class="card m-2" style="width: 20rem;">
-        <img src="images/Frank.jpg" class="card-img-top  pt-2" alt="...">
+<!--More image-->
+<div class="container pb-5">
+    <div class="row row-cols-sm-2 row-cols-md-4 justify-content-center">
+
+        <div class="card m-2" style="width: 20rem;">
+            <img src="images/Frank.jpg" class="card-img-top  pt-2" alt="...">
+        </div>
+        <div class="card m-2" style="width: 20rem;">
+            <img src="images/DTB.jpg" class="card-img-top pt-2 " alt="...">
+        </div>
+        <div class="card m-2" style="width: 20rem;">
+            <img src="images/Eminem.jpg" class="card-img-top pt-2 pb-2" alt="...">
+        </div>
+        <div class="card m-2" style="width: 20rem;">
+            <img src="images/Rodman.jpg" class="card-img-top pt-2 pb-2" alt="...">
+        </div>
+        <div class="card m-2" style="width: 20rem;">
+            <img src="images/Tupac.jpg" class="card-img-top pt-2 pb-2" alt="...">
+        </div>
+        <div class="card m-2" style="width: 20rem;">
+            <img src="images/YoungBoy.jpg" class="card-img-top pt-2 pb-2" alt="...">
+        </div>
+    
     </div>
-    <div class="card m-2" style="width: 20rem;">
-        <img src="images/DTB.jpg" class="card-img-top pt-2 " alt="...">
-    </div>
-    <div class="card m-2" style="width: 20rem;">
-        <img src="images/Eminem.jpg" class="card-img-top pt-2 pb-2" alt="...">
-    </div>
-    <div class="card m-2" style="width: 20rem;">
-        <img src="images/Rodman.jpg" class="card-img-top pt-2 pb-2" alt="...">
-    </div>
-    <div class="card m-2" style="width: 20rem;">
-        <img src="images/Tupac.jpg" class="card-img-top pt-2 pb-2" alt="...">
-    </div>
-    <div class="card m-2" style="width: 20rem;">
-        <img src="images/YoungBoy.jpg" class="card-img-top pt-2 pb-2" alt="...">
-    </div>
-   
 </div>
+
 <!--footer-->
 <footer class="bg-body-tertiary text-center mt-auto">
   <div class="text-center p-1" style="background-color: rgba(0, 0, 0, 0.05);">

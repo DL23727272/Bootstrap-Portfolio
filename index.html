@@ -12,14 +12,17 @@
     <!--Alertify-->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css" />
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css" />
-    <title>Home | Gamoso</title>
+    <title>Home</title>
     <link rel="icon" type="image/png" href="images/LOGO white.png"> 
     <style>
         /* *{
             border: 1px solid black;
         } */
-        body{
+        body {
             background-image: linear-gradient(to right bottom, #1bf2c6, #7cd267, #b2a903, #da7300, #eb123b);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; /* Optional: Keeps the background fixed while scrolling */
         }
         .carousel-item img {
             height: 350px; 
@@ -79,7 +82,9 @@
       </div>
       <div class="carousel-item">
           <img src="images/banner2.jpg" class="d-block w-100" alt="...">
-        
+          <div class="carousel-caption position-absolute top-60 start-30 ">
+          <a href="gallery.html"><button class="btn btn-primary">View More</button></a>
+        </div>
       </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -166,30 +171,29 @@
                 <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                     <i class="fa-solid fa-heart"></i>  Socials
                 </a>
-                
-              </p>
-              <div class="collapse" id="collapseExample">
-                <div class="card card-body">
-                    <div class="card mb-4 mb-lg-0">
-                        <div class="card-body p-0">
-                        <ul class="list-group list-group-flush rounded-3">
-                            <li class="list-group-item d-flex justify-content-between align-items-center p-3">
-                            <i class="fab fa-twitter fa-lg" style="color: #55acee;"></i>
-                            <p class="mb-0">@dldoesvisuals</p>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center p-3">
-                            <i class="fab fa-instagram fa-lg" style="color: #ac2bac;"></i>
-                            <p class="mb-0">@youngdl_</p>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center p-3">
-                            <i class="fab fa-facebook-f fa-lg" style="color: #3b5998;"></i>
-                            <p class="mb-0">Dran Leynard Gamoso</p>
-                            </li>
-                        </ul>
-                        </div>
-                    </div>
-                </div>
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                  <div class="card mb-4 mb-lg-0">
+                      <div class="card-body p-0">
+                      <ul class="list-group list-group-flush rounded-3">
+                          <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                          <i class="fab fa-twitter fa-lg" style="color: #55acee;"></i>
+                          <p class="mb-0">@dldoesvisuals</p>
+                          </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                          <i class="fab fa-instagram fa-lg" style="color: #ac2bac;"></i>
+                          <p class="mb-0">@youngdl_</p>
+                          </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                          <i class="fab fa-facebook-f fa-lg" style="color: #3b5998;"></i>
+                          <p class="mb-0">Dran Leynard Gamoso</p>
+                          </li>
+                      </ul>
+                      </div>
+                  </div>
               </div>
+            </div>
            
       </div>
     </div>

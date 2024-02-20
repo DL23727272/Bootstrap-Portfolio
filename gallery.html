@@ -12,14 +12,18 @@
     <!--Alertify-->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css" />
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css" />
-    <title>Gallery | Gamoso</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YourFontName&display=swap">
+    <title>Gallery</title>
     <link rel="icon" type="image/png" href="images/LOGO white.png"> 
     <style>
         /* *{
             border: 1px solid black;
         } */
-        body{
+        body {
             background-image: linear-gradient(to right bottom, #1bf2c6, #7cd267, #b2a903, #da7300, #eb123b);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; /* Optional: Keeps the background fixed while scrolling */
         }
         .carousel-item img {
             height: 350px; 
@@ -62,7 +66,7 @@
     </div>
 </nav>
 
-<!--Carousel1-->
+<!--Carousel-->
 <div id="carouselExampleDark" class="carousel carousel-dark slide mt-3 mx-5 my-5  p-2">
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -96,7 +100,32 @@
     </button>
 </div>
 
+<div class="container text-center mt-1">
+    <h1 class="fw-bold"  style="color: white;">Shirt Designs</h1>
+</div>
+<!--More image-->
+<div class="row row-cols-sm-2 row-cols-md-4 justify-content-sm-center justify-content-center">
 
+    <div class="card m-2" style="width: 20rem;">
+        <img src="images/Frank.jpg" class="card-img-top  pt-2" alt="...">
+    </div>
+    <div class="card m-2" style="width: 20rem;">
+        <img src="images/DTB.jpg" class="card-img-top pt-2 " alt="...">
+    </div>
+    <div class="card m-2" style="width: 20rem;">
+        <img src="images/Eminem.jpg" class="card-img-top pt-2 pb-2" alt="...">
+    </div>
+    <div class="card m-2" style="width: 20rem;">
+        <img src="images/Rodman.jpg" class="card-img-top pt-2 pb-2" alt="...">
+    </div>
+    <div class="card m-2" style="width: 20rem;">
+        <img src="images/Tupac.jpg" class="card-img-top pt-2 pb-2" alt="...">
+    </div>
+    <div class="card m-2" style="width: 20rem;">
+        <img src="images/YoungBoy.jpg" class="card-img-top pt-2 pb-2" alt="...">
+    </div>
+   
+</div>
 <!--footer-->
 <footer class="bg-body-tertiary text-center mt-auto">
   <div class="text-center p-1" style="background-color: rgba(0, 0, 0, 0.05);">
